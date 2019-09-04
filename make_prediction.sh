@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+exec > output_txt_files/docker_out.txt
 
 PORT=8000
 echo "Port: $PORT"
